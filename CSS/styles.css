@@ -17,6 +17,7 @@ background: radial-gradient(circle,rgb(43, 43, 43) 0%, rgba(38, 38, 38, 1) 44%);
 
 nav span{
     color: rgb(214, 67, 214);
+    text-shadow: 0px 0px 40px #f6b2ffc0
 }
 
 .logo {
@@ -30,6 +31,7 @@ nav span{
   width: 100px;
   height: 100px;
   margin-right: -10px;
+  
 }
 
 .links {
@@ -129,3 +131,14 @@ nav span{
 .boton-form input:hover{
     background: #6402a5ea;
     }
+
+    .cuenta-pregunta{
+        margin-top: 20px;
+    }
+.cuenta-pregunta span{
+    font-size: 20px;
+}
+.cuenta-pregunta a{
+    font-size: 20px;
+    color: #6402a5ea;
+}
