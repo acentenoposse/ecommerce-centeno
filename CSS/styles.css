@@ -1,10 +1,13 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #d6d6d6;
+background: radial-gradient(circle,rgb(218, 218, 218) 0%, rgba(163, 163, 163, 1) 44%);
 }
 
 nav {
-  background-color: #222;
+  background: #313131;
+background: radial-gradient(circle,rgb(43, 43, 43) 0%, rgba(38, 38, 38, 1) 44%);
   color: white;
   display: flex;
   justify-content: space-between;
@@ -47,10 +50,10 @@ nav span{
 }
 
 .links button {
-  background: #400169;
+  background: #5f009eea;
   border: none;
   padding: 0.4rem 0.8rem;
-  border-radius: 4px;
+  border-radius: 10px;
   cursor: pointer;
   font-size: 1rem;
   font-weight: bold;
@@ -60,3 +63,69 @@ nav span{
 .links button:hover {
   background: rgb(214, 67, 214);
 }
+
+.main-form{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 70px;
+}
+
+.titulo-form{
+    color: black;
+    font-size: 45px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.formulario-nom-mail{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+}
+
+.formulario-nom-mail input{
+    width: 300px;
+    margin-right: 60px;
+    margin-left: 10px;
+    border-radius: 12px;
+    border: none;
+    padding: 3px, 6px, 6px, 6px;
+    box-shadow: 8px 8px 10px 0 rgb(187, 187, 187);
+    text-align: center;
+}
+
+.formulario-contrasena{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    margin-top: 70px;
+}
+.formulario-contrasena input{
+    width: 300px;
+    margin-right: 50px;
+    margin-left: 10px;
+    border-radius: 12px;
+    border: none;
+    padding: 3px, 6px, 6px, 6px;
+    box-shadow: 8px 8px 10px 0 rgb(187, 187, 187);
+    text-align: center;
+}
+.boton-form input{
+    width: 700px;
+    margin-top: 85px;
+    background: #b669e971;
+    border: none;
+    padding: 0.8rem 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+.boton-form input:hover{
+    background: #6402a5ea;
+    }
