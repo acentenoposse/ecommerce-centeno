@@ -257,6 +257,79 @@ gap: 10px;
     background: #e2bafdc2;
     }
 
-    .cuenta-pregunta{
+    .cuenta-pregunta2{
       margin-top: -30px;
     }
+
+.card-producto {
+  height: 490px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  background: #cb81fd;
+  border-radius: 15px;
+  margin: 50px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 8px 8px 10px 0 rgb(116, 116, 116);
+}
+
+.card-img{
+  height: 50%;
+  border-radius: 15px;
+  padding-bottom: 75px;
+}
+
+.card-img img{
+  height: auto;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.card-info{
+  height: 50%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+  margin-top: -30px;
+}
+
+.card-info h1{
+  text-align: center;
+  font-size: 1.1rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.card-info h3{
+  text-align: center;
+  font-size: 0.8rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: -2px;
+}
+.card-info button{
+  width: 150px;
+    background: #902cbec7;
+    border: none;
+    padding: 0.8rem 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: background 0.3s ease;
+    text-align: center;
+    color: #000000;
+    font-weight: bold ;
+}
+
+.card-info button:hover{
+    background: #4e0083;
+    }
+
+.card-info a{
+  color: #25003a;
+  margin-top: 5px;
+}
