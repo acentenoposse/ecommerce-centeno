@@ -6,11 +6,11 @@
     <title>Login - Inicia Sesión</title>
     <link rel="stylesheet" href="../CSS/styles.css">
 </head>
-<body>
+<body class="main-login">
     <header>
     <nav>
     <div class="logo">
-        <img src="./assets/logopadel.svg" alt="Icono pádel">
+        <img src="../assets/logopadel.svg" alt="Icono pádel">
         <span>Padel Nuestro</span>
     </div>
     <div class="links">
@@ -23,5 +23,50 @@
     </div>
     </nav>
     </header>
+    <main class="container-all">
+        <section class="container-izq">
+            <div class="titulo-login">
+                <h1>BIENVENIDO A PÁDEL NUESTRO</h1>
+            </div>
+            <div class="subtitulo-login">
+                <h3>¡Que gusto verte de nuevo por acá! Ingresá con tu cuenta para conocer las novedades del mundo del pádel y ver las mejores ofertas disponibles...</h3>
+            </div>
+            <div>
+                <img class="imagen-tapia" src="../assets/tapia.jpeg" height="400px" width="auto" alt="tapia">
+            </div>
+        </section>
+        <section class="container-der">
+            <div class="titulo-login2">
+                <h1 >¡INICIÁ SESIÓN!</h1>
+            </div>
+            <form action="" method="post">
+            <div class="login-nom-mail">
+                <form action="" method="post"></form>
+                <label for="txtMail">
+                    <b>Correo Electrónico:</b>
+                </label>
+                <input type="email" id="txtMail" name="txtMail" placeholder="Acá va tu correo...">
+            </div>
+            <div class="login-contrasena">
+                
+                <label for="txtContrasena">
+                    <b>Ingresá tu contraseña:</b>
+                </label>
+                <input type="password" id="txtContrasena2" name="txtContrasena2" placeholder="Tu Contraseña...">
+        
+                
+            </div>
+            <div class="boton-login">
+                <input type="submit" value="Iniciar sesión">
+            </div>
+            <div class="cuenta-pregunta">
+            <span>¿No tenés una cuenta?</span> <a href="../pages/formulario.html">Registrate gratis</a>
+            </div>
+        </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>

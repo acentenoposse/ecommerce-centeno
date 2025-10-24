@@ -142,3 +142,121 @@ nav span{
     font-size: 20px;
     color: #6402a5ea;
 }
+.container-all{
+  display: flex;
+  flex-direction: row;
+}
+.main-login{
+  background: #7e509c;
+background: radial-gradient(circle, rgba(165, 108, 204, 0.84) 0%, rgba(160, 80, 226, 0.71) 53%);
+}
+
+.imagen-tapia{
+  border-radius: 30px;
+  box-shadow: 18px 18px 20px 0 rgb(92, 92, 92);
+  margin-top: 20px;
+}
+.titulo-login{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2e012e;
+  font-size: 1.5rem;
+  margin-bottom: -35px;
+}
+.titulo-login2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2e012e;
+  font-size: 1.5rem;
+}
+
+.subtitulo-login{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2e012e;
+  font-size: 1.2rem;
+  width: 600px;
+  text-align: center;
+}
+
+.container-izq{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 30px;
+  margin-top: 50px;
+}
+
+.container-der{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+  padding-right: 30px;
+  margin-top: 65px;
+  gap: 75px;
+}
+
+.login-nom-mail{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.login-nom-mail b{
+  font-size: 1.6rem;
+  color: #2e012e;
+  margin-left: 50px;
+}
+.login-nom-mail input{
+  color: #2e012e;
+  border-radius: 8px;
+  border: none;
+  width: 700px;
+  height: 35px;
+  margin-left: 50px;
+  text-align: center;
+}
+
+.login-contrasena{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.login-contrasena b{
+  font-size: 1.6rem;
+  color: #2e012e;
+  margin-left: 50px;
+}
+.login-contrasena input{
+  color: #2e012e;
+  border-radius: 8px;
+  border: none;
+  width: 700px;
+  height: 35px;
+  margin-left: 50px;
+  text-align: center;
+}
+
+.boton-login input{
+  width: 400px;
+    background: #6402a5ea;
+    border: none;
+    padding: 0.8rem 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.boton-login input:hover{
+    background: #e2bafdc2;
+    }
+
+    .cuenta-pregunta{
+      margin-top: -30px;
+    }
