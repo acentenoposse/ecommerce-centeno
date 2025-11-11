@@ -20,17 +20,11 @@ nav span{
     text-shadow: 0px 0px 40px #f6b2ffc0
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
 
 .logo img {
-  width: 100px;
-  height: 100px;
-  margin-right: -10px;
+  width: auto;
+  height: 140px;
+  margin:  -18px -18px -18px 105px;
   
 }
 
@@ -38,6 +32,13 @@ nav span{
   display: flex;
   align-items: center;
   gap: 1.5rem;
+}
+
+.listalinks{
+  text-decoration: none;
+  display: flex;
+  gap: 1.3rem;
+  list-style: none;
 }
 
 .links a {
@@ -147,31 +148,38 @@ nav span{
   flex-direction: row;
 }
 .main-login{
-  background: #7e509c;
-background: radial-gradient(circle, rgba(165, 108, 204, 0.84) 0%, rgba(160, 80, 226, 0.71) 53%);
+  background: #d6d6d6;
+background: radial-gradient(circle,rgb(218, 218, 218) 0%, rgba(163, 163, 163, 1) 44%);
 }
 
 .imagen-tapia{
   border-radius: 30px;
-  box-shadow: 18px 18px 20px 0 rgb(92, 92, 92);
+  
   margin-top: 20px;
+  transition: all 0.5s;
 }
+
+.imagen-tapia:hover{
+  transform: scale(1.12);
+  box-shadow: 18px 18px 20px 0 rgb(92, 92, 92);
+}
+
 .titulo-login{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #2e012e;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-bottom: -35px;
 }
 .titulo-login2{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #2e012e;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .subtitulo-login{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #2e012e;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   width: 600px;
   text-align: center;
 }
@@ -196,17 +204,17 @@ background: radial-gradient(circle, rgba(165, 108, 204, 0.84) 0%, rgba(160, 80, 
   padding-left: 0px;
   padding-right: 30px;
   margin-top: 65px;
-  gap: 75px;
+  gap: 45px;
 }
 
 .login-nom-mail{
 display: flex;
 flex-direction: column;
-gap: 10px;
+gap: 15px;
 }
 
 .login-nom-mail b{
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   color: #2e012e;
   margin-left: 50px;
 }
@@ -214,7 +222,7 @@ gap: 10px;
   color: #2e012e;
   border-radius: 8px;
   border: none;
-  width: 700px;
+  width: 550px;
   height: 35px;
   margin-left: 50px;
   text-align: center;
@@ -227,7 +235,7 @@ gap: 10px;
 }
 
 .login-contrasena b{
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   color: #2e012e;
   margin-left: 50px;
 }
@@ -235,15 +243,15 @@ gap: 10px;
   color: #2e012e;
   border-radius: 8px;
   border: none;
-  width: 700px;
+  width: 550px;
   height: 35px;
   margin-left: 50px;
   text-align: center;
 }
 
 .boton-login input{
-  width: 400px;
-    background: #6402a5ea;
+  width: 400px; 
+    background: #c89be6d3;
     border: none;
     padding: 0.8rem 1rem;
     border-radius: 15px;
@@ -254,7 +262,7 @@ gap: 10px;
 }
 
 .boton-login input:hover{
-    background: #e2bafdc2;
+    background: #6402a5ea;
     }
 
     .cuenta-pregunta2{
