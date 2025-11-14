@@ -11,13 +11,13 @@ let catData = [
     },
     {
         title: 'zapatillas',
-        img: '../../assets/vertex.webp',
+        img: '../../assets/zapatillas.webp',
         descripcion: 'Movete en la pista rápido, ágil y con el mejor estilo, todas las marcas y talles para que disfrutes dentro del 20x10',
         url: '../../pages/categorias/zapatillas.html',
     },
     {
         title: 'camisetas',
-        img: '../../assets/adipower.webp',
+        img: '../../assets/camiseta.webp',
         descripcion: 'Destacá con las camisetas que usan tus jugadores favoritos, con la mejor tela y el diseño más atractivo',
         url: '../../pages/categorias/camisetas.html',
     }
