@@ -8,19 +8,6 @@
 </head>
 <body class="main-login">
     <header>
-    <!-- <nav>
-    <div class="logo">
-        <img src="../../assets/logo.png"  alt="Icono pádel">
-    </div>
-    <div class="links">
-        <a href="../../index.html">Home</a>
-        <a href="../../pages/categorias/paletas.html">Paletas</a>
-        <a href="../../pages/categorias/camisetas.html">Remeras</a>
-        <a href="../../pages/categorias/zapatillas.html">Zapatillas</a>
-        <a href="../../pages/formularios/formulario.html"><button>Registrarse</button></a>
-        <button>Logout</button>
-    </div>
-    </nav> -->
     </header>
     <main class="container-all">
         <section class="container-izq">
@@ -38,23 +25,22 @@
             <div class="titulo-login2">
                 <h1 >¡INICIÁ SESIÓN!</h1>
             </div>
-            <form action="" method="post">
+
+        <form id="formLogin" class="formulario-login" action="" method="post">
             <div class="login-nom-mail">
-                <form action="" method="post"></form>
                 <label for="txtMail">
                     <b>Correo Electrónico:</b>
                 </label>
                 <input type="email" id="txtMail" name="txtMail" placeholder="Acá va tu correo...">
             </div>
-            <div class="login-contrasena">
-                
+
+            <div class="login-contrasena"> 
                 <label for="txtContrasena">
                     <b>Ingresá tu contraseña:</b>
                 </label>
-                <input type="password" id="txtContrasena2" name="txtContrasena2" placeholder="Tu Contraseña...">
-        
-                
+                <input type="password" id="txtContrasena" name="txtContrasena" placeholder="Tu Contraseña..."> 
             </div>
+
             <div class="boton-login">
                 <input type="submit" value="Iniciar sesión">
             </div>
@@ -63,10 +49,12 @@
             </div>
         </form>
         </section>
+
     </main>
     <footer>
 
     </footer>
-    <script type="module" src="../../index.js"></script>
+    <!-- <script type="module" src="../../index.js"></script> -->
+    <script src="./login.js"></script>
 </body>
 </html>
