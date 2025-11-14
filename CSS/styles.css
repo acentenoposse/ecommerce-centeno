@@ -295,6 +295,13 @@ gap: 10px;
 
     }
 
+.cardContainer{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
 .card-producto {
   height: 490px;
   width: 300px;
@@ -341,6 +348,14 @@ gap: 10px;
 .card-info h3{
   text-align: center;
   font-size: 0.8rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: -2px;
+}
+
+.card-info h2{
+  text-align: center;
+  font-size: 1rem;
   padding-left: 15px;
   padding-right: 15px;
   margin-top: -2px;
