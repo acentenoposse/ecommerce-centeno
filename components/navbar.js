@@ -1,11 +1,11 @@
 
 
 const navElements = [
-    {title: 'Home', link: `${url}../../pages/home/home.html`},
-    {title: 'Paletas', link: `${url}../../pages/categorias/paletas.html`},
-    {title: 'Remeras', link: `${url}../../pages/categorias/camisetas.html`},
-    {title: 'Zapatillas', link: `${url}../../pages/categorias/zapatillas.html`},
-]
+    {title: 'Home', link: '../../pages/home/home.html'},
+    {title: 'Paletas', link: '../../pages/categorias/paletas.html'},
+    {title: 'Remeras', link: '../../pages/categorias/camisetas.html'},
+    {title: 'Zapatillas', link: '../../pages/categorias/zapatillas.html'},
+];
 
 export const navBarComponent = `
 <nav>
