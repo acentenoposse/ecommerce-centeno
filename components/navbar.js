@@ -1,4 +1,4 @@
-const url = 'http://127.0.0.1:5500/'
+
 
 const navElements = [
     {title: 'Home', link: `${url}../../pages/home/home.html`},
