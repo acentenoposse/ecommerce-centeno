@@ -21,7 +21,7 @@ export const navBarComponent = `
             }).join('')
         }
             <li><a href="../../pages/formularios/formulario.html"><button>Registrarse</button></a></li>
-            <li><button>Logout</button></li>
+            <li><a href="../../pages/formularios/Login.html"><button>Logout</button></a></li>
         </ul>
     </div>
     </nav>
