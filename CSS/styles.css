@@ -179,7 +179,21 @@ background: radial-gradient(circle,rgb(218, 218, 218) 0%, rgba(163, 163, 163, 1)
   transform: scale(1.12);
   box-shadow: 18px 18px 20px 0 rgb(92, 92, 92);
 }
+.titulocategorias{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #000000;
+  font-size: 2.4rem;
+  margin-top: 30px;
+}
 
+.subtitulocategorias{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #555555;
+  font-size: 0.7rem;
+  margin-top: -20px;
+}
 .titulo-login{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #2e012e;
@@ -291,10 +305,6 @@ gap: 10px;
     background: #6402a5ea;
     }
 
-    .cuenta-pregunta2{
-
-    }
-
 .titulo-home{
   text-align: center;
   font-size: 45px;
@@ -346,7 +356,7 @@ gap: 10px;
 
 .card-producto {
   height: 520px;
-  width: 300px;
+  width: 310px;
   display: flex;
   flex-direction: column;
   background: #b572e2;
@@ -469,6 +479,23 @@ gap: 10px;
     text-align: center;
     color: #000000;
     font-weight: bold ;
+}
+
+.botonescarro{
+ display: flex;
+ flex-direction: row;
+ gap: 5px;
+ align-content: center;
+ justify-content: center;
+}
+
+.botonescarro img{
+  margin-top: 7px;
+  transition: all 0.2s;
+}
+
+.botonescarro img:hover{
+  transform: scale(1.2);
 }
 
 .card-info button:hover{
