@@ -77,8 +77,30 @@ if (cardContainer) {
             const paletas = data.productos.filter(
                 (item) => item.categoria === "paleta"
             );
-            cardContainer.innerHTML = paletas.map(cardComponent).join("");
-            inicializarContadoresEnContenedor(cardContainer);
+
+            function renderPaletas(lista) {
+                cardContainer.innerHTML = lista.map(cardComponent).join("");
+                inicializarContadoresEnContenedor(cardContainer);
+            }
+            renderPaletas(paletas);
+            const buscadorPaletas = document.getElementById("buscadorPaletas");
+            if (buscadorPaletas) {
+                buscadorPaletas.addEventListener("input", (e) => {
+                    const texto = e.target.value.toLowerCase().trim();
+
+                    if (texto === "") {
+                        renderPaletas(paletas);
+                        return;
+                    }
+
+                    const filtradas = paletas.filter((p) =>
+                        p.nombre.toLowerCase().includes(texto) ||
+                        p.descripcion.toLowerCase().includes(texto)
+                    );
+
+                    renderPaletas(filtradas);
+                });
+            }
         })
         .catch((error) => console.error("Error cargando paletas:", error));
 
@@ -97,8 +119,32 @@ if (zapaContainer) {
             const zapatillas = data.productos.filter(
                 (item) => item.categoria === "zapatillas"
             );
-            zapaContainer.innerHTML = zapatillas.map(cardComponent).join("");
-            inicializarContadoresEnContenedor(zapaContainer);
+
+            function renderZapas(lista) {
+                zapaContainer.innerHTML = lista.map(cardComponent).join("");
+                inicializarContadoresEnContenedor(zapaContainer);
+            }
+
+            renderZapas(zapatillas);
+
+            const buscadorZapas = document.getElementById("buscadorZapas");
+            if (buscadorZapas) {
+                buscadorZapas.addEventListener("input", (e) => {
+                    const texto = e.target.value.toLowerCase().trim();
+
+                    if (texto === "") {
+                        renderZapas(zapatillas);
+                        return;
+                    }
+
+                    const filtradas = zapatillas.filter((p) =>
+                        p.nombre.toLowerCase().includes(texto) ||
+                        p.descripcion.toLowerCase().includes(texto)
+                    );
+
+                    renderZapas(filtradas);
+                });
+            }
         })
         .catch((error) =>
             console.error("Error cargando zapatillas:", error)
@@ -119,8 +165,32 @@ if (camisetaContainer) {
             const camisetas = data.productos.filter(
                 (item) => item.categoria === "camiseta"
             );
-            camisetaContainer.innerHTML = camisetas.map(cardComponent).join("");
-            inicializarContadoresEnContenedor(camisetaContainer);
+
+            function renderCamis(lista) {
+                camisetaContainer.innerHTML = lista.map(cardComponent).join("");
+                inicializarContadoresEnContenedor(camisetaContainer);
+            }
+
+            renderCamis(camisetas);
+
+            const buscadorCambios = document.getElementById("buscadorCambios");
+            if (buscadorCambios) {
+                buscadorCambios.addEventListener("input", (e) => {
+                    const texto = e.target.value.toLowerCase().trim();
+
+                    if (texto === "") {
+                        renderCamis(camisetas);
+                        return;
+                    }
+
+                    const filtradas = camisetas.filter((p) =>
+                        p.nombre.toLowerCase().includes(texto) ||
+                        p.descripcion.toLowerCase().includes(texto)
+                    );
+
+                    renderCamis(filtradas);
+                });
+            }
         })
         .catch((error) =>
             console.error("Error cargando camisetas:", error)

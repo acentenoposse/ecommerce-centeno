@@ -668,3 +668,28 @@ gap: 10px;
     filter: brightness(0.9);
     transform: scale(1.1);
 }
+
+.buscador-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.buscadorProductos {
+  width: 100%;
+  max-width: 550px;
+  padding: 10px 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  background-color: #fafafa;
+  transition: all 0.25s ease;
+  outline: none;
+}
+
+.buscadorProductos:focus {
+  border-color: #ff99fa69;
+  background-color: #fff;
+  box-shadow: 0 0 6px rgba(252, 255, 252, 0.25);
+}
