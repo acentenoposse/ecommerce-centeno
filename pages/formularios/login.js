@@ -2,8 +2,6 @@ const emailCorrecto = "agustin@gmail.com";
 const passwordCorrecta = "123456";
 
 const form = document.getElementById("formLogin");
-const errorMsg = document.getElementById("errorMsg");
-
 form.addEventListener("submit", function(event) {
     event.preventDefault();
 
@@ -11,7 +9,13 @@ form.addEventListener("submit", function(event) {
     const passIngresada = document.getElementById("txtContrasena").value;
 
     if (emailIngresado === emailCorrecto && passIngresada === passwordCorrecta) {
-        window.location.href = "../home/home.html"; // ir al home
+
+        const usuario = {
+            email: emailIngresado,
+            fechaLogin: new Date().toISOString()
+        };
+        sessionStorage.setItem("usuarioLogueado", JSON.stringify(usuario));
+        window.location.href = "../home/home.html";
     } else {
         alert("Correo o contraseña incorrectos");
     }

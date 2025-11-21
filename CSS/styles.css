@@ -565,3 +565,106 @@ gap: 10px;
     font-size: 14px;
     color: #888;
 }
+
+
+.carrito-main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1.5rem 2rem;
+    background: #faf7f3;             
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.carrito-main h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    color: #25003a;                    
+}
+
+#info-usuario {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+
+.tabla-carrito {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    min-height: 320px;
+}
+
+.tabla-carrito thead {
+    background: #25003a;
+    color: #fff;
+}
+
+.tabla-carrito th,
+.tabla-carrito td {
+    padding: 0.6rem 0.5rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#total-carrito {
+    text-align: right;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    color: #25003a
+}
+
+.tabla-carrito .btn-sumar,
+.tabla-carrito .btn-restar,
+.tabla-carrito .btn-eliminar {
+    padding: 0.25rem 0.6rem;
+    border-radius: 999px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8rem;
+    color: #fff;
+    margin-right: 0.2rem;
+    transition: transform 0.1s ease, filter 0.2s ease;
+}
+
+.tabla-carrito .btn-sumar {
+    background: #2e7d32;     
+}
+
+.tabla-carrito .btn-restar {
+    background: #c62828;      
+}
+
+.tabla-carrito .btn-eliminar {
+    background: #a10000;     
+}
+
+.tabla-carrito .btn-sumar:hover,
+.tabla-carrito .btn-restar:hover,
+.tabla-carrito .btn-eliminar:hover {
+  transform: scale(1.05);
+}
+
+#btn-vaciar {
+    background: #c62828;
+    color: #fff;
+    padding: 0.4rem 0.9rem;
+    border-radius: 999px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: transform 0.2s ease, filter 0.2s ease;
+    display: inline-block;
+}
+
+#btn-vaciar:hover {
+    filter: brightness(0.9);
+    transform: scale(1.1);
+}

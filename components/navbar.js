@@ -22,6 +22,7 @@ export const navBarComponent = `
         }
             <li><a href="../../pages/formularios/formulario.html"><button>Registrarse</button></a></li>
             <li><a href="../../pages/formularios/Login.html"><button>Logout</button></a></li>
+            <li><a href="../../pages/carrito/carrito.html"><img src="../../assets/cart.svg" height="33px" width="33px" alt="carrito"></a></li>
         </ul>
     </div>
     </nav>
