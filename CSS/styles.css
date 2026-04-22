@@ -520,9 +520,9 @@ nav span {
 .cardContainer {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 1.95rem;
+  gap: 1.75rem;
   max-width: var(--container-max);
-  margin: 2rem auto 1rem;
+  margin: 1rem auto 3rem;
   padding: 0 var(--container-pad);
 }
 
@@ -718,7 +718,6 @@ nav span {
   box-shadow: var(--shadow-sm);
   transition: transform var(--t-base) var(--ease-out), box-shadow var(--t-base) var(--ease), border-color var(--t-base) var(--ease);
   animation: fadeUp 0.5s var(--ease-out) both;
-  text-align: center;
 }
 
 .card-producto:hover {
@@ -818,7 +817,7 @@ nav span {
   color: var(--c-text-muted);
   margin: 0;
   padding: 0;
-  text-align: left;
+  text-align: center;
   line-height: 1.4;
   min-height: 2.8em;
   max-height: 2.8em;
