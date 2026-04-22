@@ -1,0 +1,196 @@
+{
+    "productos": [
+    {
+        "categoria": "paleta",
+        "nombre": "Nox AT10 12K",
+        "descripcion": "Paleta de carbono 12K con excelente balance entre potencia y control.",
+        "precio": 250000,
+        "img": "/assets/paletanox.webp"
+        
+    },
+    {
+        "categoria": "paleta",
+        "nombre": "Bullpadel Vertex 04",
+        "descripcion": "Paleta de potencia con forma de diamante y caras de carbono Xtend.",
+        "precio": 310000,
+        "img": "/assets/vertex.webp"
+    },
+    {
+        "categoria": "paleta",
+        "nombre": "Babolat technical",
+        "descripcion": "Modelo versátil de equilibrio medio ideal para jugadores avanzados",
+        "precio": 270000,
+        "img": "/assets/babolat.webp"
+    },
+    {
+        "categoria": "zapatillas",
+        "nombre": "Adidas Court",
+        "descripcion": "Zapatillas ligeras con estabilizador lateral y suela apta para pádel.",
+        "precio": 180000,
+        "img": "/assets/adidascourt.webp"
+    },
+    {
+        "categoria": "zapatillas",
+        "nombre": "Bullpadel Hack Hybrid",
+        "descripcion": "Zapatillas con alta amortiguación y suela híbrida para máxima adherencia.",
+        "precio": 220000,
+        "img": "/assets/zapabull.webp"
+    },
+    {
+        "categoria": "zapatillas",
+        "nombre": "Asics Gel-Padel Pro 5",
+        "descripcion": "Modelo clásico de Asics con gel delantero y suela clay para mejor tracción.",
+        "precio": 160000,
+        "img": "/assets/asics.webp"
+    },
+    {
+        "categoria": "camiseta",
+        "nombre": "Camiseta Bullpadel 04",
+        "descripcion": "Camiseta suave y cómoda para entrenamientos y uso diario.",
+        "precio": 35000,
+        "img": "/assets/camibull.webp"
+    },
+    {
+        "categoria": "camiseta",
+        "nombre": "Camiseta Nox Team",
+        "descripcion": "Camiseta técnica de secado rápido, ideal para partidos intensos.",
+        "precio": 42000,
+        "img": "/assets/camiseta.webp"
+    },
+    {
+        "categoria": "camiseta",
+        "nombre": "Camiseta Head Motion",
+        "descripcion": "Prenda ligera con tejido transpirable para máxima comodidad.",
+        "precio": 38000,
+        "img": "/assets/camihead.webp"
+    },
+    {
+        "categoria": "paleta",
+        "nombre": "Nox AT10 12K",
+        "descripcion": "Paleta de carbono 12K con excelente balance entre potencia y control.",
+        "precio": 250000,
+        "img": "/assets/paletanox.webp"
+        
+    },
+    {
+        "categoria": "paleta",
+        "nombre": "Bullpadel Vertex 04",
+        "descripcion": "Paleta de potencia con forma de diamante y caras de carbono Xtend.",
+        "precio": 310000,
+        "img": "/assets/vertex.webp"
+    },
+    {
+        "categoria": "paleta",
+        "nombre": "Babolat technical",
+        "descripcion": "Modelo versátil de equilibrio medio ideal para jugadores avanzados",
+        "precio": 270000,
+        "img": "/assets/babolat.webp"
+    },
+    {
+        "categoria": "zapatillas",
+        "nombre": "Adidas Court",
+        "descripcion": "Zapatillas ligeras con estabilizador lateral y suela apta para pádel.",
+        "precio": 180000,
+        "img": "/assets/adidascourt.webp"
+    },
+    {
+        "categoria": "zapatillas",
+        "nombre": "Bullpadel Hack Hybrid",
+        "descripcion": "Zapatillas con alta amortiguación y suela híbrida para máxima adherencia.",
+        "precio": 220000,
+        "img": "/assets/zapabull.webp"
+    },
+    {
+        "categoria": "zapatillas",
+        "nombre": "Asics Gel-Padel Pro 5",
+        "descripcion": "Modelo clásico de Asics con gel delantero y suela clay para mejor tracción.",
+        "precio": 160000,
+        "img": "/assets/asics.webp"
+    },
+    {
+        "categoria": "camiseta",
+        "nombre": "Camiseta Bullpadel 04",
+        "descripcion": "Camiseta suave y cómoda para entrenamientos y uso diario.",
+        "precio": 35000,
+        "img": "/assets/camibull.webp"
+    },
+    {
+        "categoria": "camiseta",
+        "nombre": "Camiseta Nox Team",
+        "descripcion": "Camiseta técnica de secado rápido, ideal para partidos intensos.",
+        "precio": 42000,
+        "img": "/assets/camiseta.webp"
+    },
+    {
+        "categoria": "camiseta",
+        "nombre": "Camiseta Head Motion",
+        "descripcion": "Prenda ligera con tejido transpirable para máxima comodidad.",
+        "precio": 38000,
+        "img": "/assets/camihead.webp"
+    },
+    {
+        "categoria": "paleta",
+        "nombre": "Nox AT10 12K",
+        "descripcion": "Paleta de carbono 12K con excelente balance entre potencia y control.",
+        "precio": 250000,
+        "img": "/assets/paletanox.webp"
+        
+    },
+    {
+        "categoria": "paleta",
+        "nombre": "Bullpadel Vertex 04",
+        "descripcion": "Paleta de potencia con forma de diamante y caras de carbono Xtend.",
+        "precio": 310000,
+        "img": "/assets/vertex.webp"
+    },
+    {
+        "categoria": "paleta",
+        "nombre": "Babolat technical",
+        "descripcion": "Modelo versátil de equilibrio medio ideal para jugadores avanzados",
+        "precio": 270000,
+        "img": "/assets/babolat.webp"
+    },
+    {
+        "categoria": "zapatillas",
+        "nombre": "Adidas Court",
+        "descripcion": "Zapatillas ligeras con estabilizador lateral y suela apta para pádel.",
+        "precio": 180000,
+        "img": "/assets/adidascourt.webp"
+    },
+    {
+        "categoria": "zapatillas",
+        "nombre": "Bullpadel Hack Hybrid",
+        "descripcion": "Zapatillas con alta amortiguación y suela híbrida para máxima adherencia.",
+        "precio": 220000,
+        "img": "/assets/zapabull.webp"
+    },
+    {
+        "categoria": "zapatillas",
+        "nombre": "Asics Gel-Padel Pro 5",
+        "descripcion": "Modelo clásico de Asics con gel delantero y suela clay para mejor tracción.",
+        "precio": 160000,
+        "img": "/assets/asics.webp"
+    },
+    {
+        "categoria": "camiseta",
+        "nombre": "Camiseta Bullpadel 04",
+        "descripcion": "Camiseta suave y cómoda para entrenamientos y uso diario.",
+        "precio": 35000,
+        "img": "/assets/camibull.webp"
+    },
+    {
+        "categoria": "camiseta",
+        "nombre": "Camiseta Nox Team",
+        "descripcion": "Camiseta técnica de secado rápido, ideal para partidos intensos.",
+        "precio": 42000,
+        "img": "/assets/camiseta.webp"
+    },
+    {
+        "categoria": "camiseta",
+        "nombre": "Camiseta Head Motion",
+        "descripcion": "Prenda ligera con tejido transpirable para máxima comodidad.",
+        "precio": 38000,
+        "img": "/assets/camihead.webp"
+    }
+]
+}
